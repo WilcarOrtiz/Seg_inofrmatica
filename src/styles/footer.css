@@ -1,0 +1,20 @@
+.footer {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/*Botones*/
+.boton-footer {
+    padding: 6px 20px;
+    font-size: 16px;
+}
+
+
+.boton-footer:hover {
+    background-color: rgba(40, 44, 52, 0.048);
+    border-radius: 13px;
+}

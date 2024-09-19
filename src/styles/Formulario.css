@@ -1,0 +1,108 @@
+.contenedor {
+    min-height: 70vh;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+
+.contenedor-formulario {
+    margin-top: 20%;
+    width: 90%;
+}
+
+
+/* Estilos compartidos para los botones */
+.boton {
+    border: none;
+    border-radius: 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 19px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+
+}
+
+.boton-siguiente {
+    padding: 11px 22px;
+    background-color: rgb(14, 78, 181);
+    color: white;
+    margin-right: 25px;
+}
+
+
+.boton-crearcuenta {
+
+    padding: 11px 10px;
+    color: rgb(21, 90, 201);
+    background-color: white;
+}
+
+.boton-crearcuenta:hover {
+    background-color: rgba(12, 71, 166, 0.091);
+}
+
+.container-botones {
+    gap: 20px;
+    margin-top: 7%;
+    padding-right: 5%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+/*mensaje*/
+.mensaje-aviso {
+    width: 90%;
+    font-size: 19px;
+    color: #666;
+    justify-content: space-around;
+    font-weight: 500;
+
+}
+
+.mensaje-aviso a {
+    color: rgb(21, 90, 201);
+    text-decoration: none;
+
+}
+
+
+/*input*/
+.input-container {
+    position: relative;
+    /* Para posicionar el label sobre el input */
+    width: 95%;
+    /* Ancho del contenedor */
+    margin-bottom: 2%;
+}
+
+.input-label {
+    position: absolute;
+    /* Posicionamiento absoluto */
+    top: -10px;
+    /* Ajusta la posición vertical */
+    left: 10px;
+    /* Ajusta la posición horizontal */
+    background-color: white;
+    /* Fondo blanco para el título */
+    color: rgb(21, 90, 201);
+    /* Color del texto igual al del borde */
+    padding: 0 5px;
+    /* Espaciado alrededor del texto */
+    font-size: 16px;
+    /* Tamaño de fuente (ajusta según tu preferencia) */
+
+}
+
+input {
+    border: 2px solid rgb(21, 90, 201);
+    padding: 19px;
+    border-radius: 5px;
+    outline: none;
+    width: 100%;
+    /* Asegúrate de que ocupe el 100% del contenedor */
+    margin-bottom: 6px;
+}

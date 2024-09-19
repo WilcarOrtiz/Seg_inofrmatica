@@ -1,0 +1,49 @@
+.container {
+  height: 90vh;
+  width: 65vw;
+  margin: 60px auto 0;
+}
+
+.container-form {
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  height: 70vh;
+  border-radius: 50px;
+}
+
+.left,
+.right {
+  width: 50%;
+
+}
+
+.container-footer {
+  height: 20vh;
+  padding-top: 16px;
+}
+
+/*Logo*/
+.img-logo {
+  padding-top: 8%;
+  margin-left: 8%;
+  width: 65px;
+  height: auto;
+  padding-bottom: 4px;
+
+
+}
+
+/*Mensaje de Inica sesion y utiliza tu cuenta*/
+.text-common {
+  color: #141313;
+  font-family: Arial, sans-serif;
+  margin-left: 8%;
+}
+.text1 {
+  font-size: 45px;
+}
+
+.text2 {
+  margin-top: 2%;
+  font-size: 20px;
+}

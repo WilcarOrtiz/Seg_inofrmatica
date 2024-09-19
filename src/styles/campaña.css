@@ -1,0 +1,16 @@
+.full-screen {
+    position: fixed;
+    /* Fija el contenedor para que ocupe toda la pantalla */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('../img//fondoPhising.png');
+    /* Cambia esto por la URL de tu imagen */
+    background-size: cover;
+    /* Asegura que la imagen cubra toda la pantalla */
+    background-position: center;
+    /* Centra la imagen */
+  
+}
+

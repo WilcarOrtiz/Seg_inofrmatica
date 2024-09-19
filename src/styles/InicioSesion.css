@@ -1,6 +1,6 @@
 .container {
-  height: 90vh;
-  width: 65vw;
+  height: 70vh;
+  width: 66vw;
   margin: 60px auto 0;
 }
 
@@ -8,7 +8,7 @@
   display: flex;
   background-color: rgb(255, 255, 255);
   height: 70vh;
-  border-radius: 50px;
+  border-radius: 30px;
 }
 
 .left,
@@ -26,7 +26,7 @@
 .img-logo {
   padding-top: 8%;
   margin-left: 8%;
-  width: 65px;
+  width: 45px;
   height: auto;
   padding-bottom: 4px;
 
@@ -40,10 +40,10 @@
   margin-left: 8%;
 }
 .text1 {
-  font-size: 45px;
+  font-size: 35px;
 }
 
 .text2 {
   margin-top: 2%;
-  font-size: 20px;
+  font-size: 15px;
 }

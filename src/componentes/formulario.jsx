@@ -34,6 +34,7 @@ function Formulario(params) {
                 </div>
                 <br></br>
                 <br></br>
+                
                 <div class="mensaje-aviso">
                     ¿No es tu ordenador? Usa el modo Invitado para iniciar sesión de forma privada.
                     <br></br>

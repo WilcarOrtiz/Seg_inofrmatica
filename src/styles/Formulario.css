@@ -19,23 +19,27 @@
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 19px;
+    font-size: 14px;
     transition-duration: 0.4s;
     cursor: pointer;
 
 }
 
 .boton-siguiente {
-    padding: 11px 22px;
+    padding: 7px 19px;
     background-color: rgb(14, 78, 181);
     color: white;
     margin-right: 25px;
 }
 
+.container-botones {
+    margin-top: 40%;
+    margin-bottom: 7%;
+}
 
 .boton-crearcuenta {
 
-    padding: 11px 10px;
+    padding: 7px 8px;
     color: rgb(21, 90, 201);
     background-color: white;
 }
@@ -56,7 +60,7 @@
 /*mensaje*/
 .mensaje-aviso {
     width: 90%;
-    font-size: 19px;
+    font-size: 14px;
     color: #666;
     justify-content: space-around;
     font-weight: 500;
@@ -92,17 +96,17 @@
     /* Color del texto igual al del borde */
     padding: 0 5px;
     /* Espaciado alrededor del texto */
-    font-size: 16px;
+    font-size: 13px;
     /* Tamaño de fuente (ajusta según tu preferencia) */
 
 }
 
 input {
     border: 2px solid rgb(21, 90, 201);
-    padding: 19px;
+    padding: 12px;
     border-radius: 5px;
     outline: none;
     width: 100%;
     /* Asegúrate de que ocupe el 100% del contenedor */
-    margin-bottom: 6px;
+    margin-bottom: 2px;
 }
